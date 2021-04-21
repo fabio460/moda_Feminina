@@ -1,11 +1,12 @@
 body{
     margin: 0px;
-    height: 3000px;
+    box-sizing: border-box;
 }
 .nav_header{
     position:static;
     left: 100px;
     background-color: white;
+    
     
     
 }
@@ -238,8 +239,33 @@ footer a{
     color: white;
     text-decoration: none;
 }
+.Categorias{
+    width: 300px;
+    
+}
+.li img{
+    width: 30px;
+    height: 30px;
+    
+}
+.li{
+    
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.hover{
+    visibility: hidden;
+}
+.li:hover .hover{
+    visibility: visible;
+}
 
-
+@media (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
 
 
 
